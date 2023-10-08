@@ -80,9 +80,7 @@ button {
 	margin: 0 auto;
 }
 
-.currency {
-	font-weight: 400;
-}
+
 
 
 
@@ -114,7 +112,11 @@ button {
 
 
 .header{
-	background: #1840A7;
+	background-image:url('img/bg1.png');
+	background-size: cover;
+	margin: 32px 150px;
+	color: #fff;
+
 }
 
 
@@ -123,8 +125,6 @@ button {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-margin: 32px 150px;
-
 }
 
 
@@ -135,7 +135,16 @@ margin: 32px 150px;
 }
 
 .header__language{
-padding-right: 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.rus__l{
+	padding: 10px;
+}
+
+.nav-header{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -143,3 +152,26 @@ padding-right: 10px;
 }
 
 
+.header__content{
+	height: 400px;
+	display: grid;
+	grid-template-columns: 1fr  1fr;
+}
+
+.content__right{
+
+	display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 280px));
+  grid-column-gap: 18px;
+  grid-row-gap: 20px;
+  justify-content: center;
+	
+}
+
+.right__img{
+	padding-top: 100px;
+}
+.right__sup{
+
+	padding-left: 20px;
+}
