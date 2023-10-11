@@ -21,7 +21,6 @@ body {
 	min-width: 320px;
 	min-height: 100vh;
 	color: black;
-	background-color:#1840A7;
 	position: relative;
 	overflow-x :hidden;
 }
@@ -116,6 +115,7 @@ button {
 	background-size: cover;
 	padding: 32px 150px;
 	color: #fff;
+	background-color:#1840A7;
 
 }
 
